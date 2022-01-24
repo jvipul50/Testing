@@ -1,0 +1,16 @@
+B:\Projects\DotNet\testing\Testing\Testing\bin\Debug\net5.0\Testing.exe
+B:\Projects\DotNet\testing\Testing\Testing\bin\Debug\net5.0\Testing.deps.json
+B:\Projects\DotNet\testing\Testing\Testing\bin\Debug\net5.0\Testing.runtimeconfig.json
+B:\Projects\DotNet\testing\Testing\Testing\bin\Debug\net5.0\Testing.runtimeconfig.dev.json
+B:\Projects\DotNet\testing\Testing\Testing\bin\Debug\net5.0\Testing.dll
+B:\Projects\DotNet\testing\Testing\Testing\bin\Debug\net5.0\ref\Testing.dll
+B:\Projects\DotNet\testing\Testing\Testing\bin\Debug\net5.0\Testing.pdb
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\Testing.csproj.AssemblyReference.cache
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\Testing.AssemblyInfoInputs.cache
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\Testing.AssemblyInfo.cs
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\Testing.csproj.CoreCompileInputs.cache
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\Testing.dll
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\ref\Testing.dll
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\Testing.pdb
+B:\Projects\DotNet\testing\Testing\Testing\obj\Debug\net5.0\Testing.genruntimeconfig.cache
