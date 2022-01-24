@@ -8,5 +8,10 @@ namespace Testing
         {
             Console.WriteLine("Hello World!!!");
         }
+
+        void test()
+        {
+            Console.WriteLine("Testing!");
+        }
     }
 }
