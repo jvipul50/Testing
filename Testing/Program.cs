@@ -11,7 +11,7 @@ namespace Testing
 
         void test()
         {
-            Console.WriteLine("Testing!");
+            Console.WriteLine("Testing! B2");
         }
     }
 }
