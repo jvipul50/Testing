@@ -6,12 +6,12 @@ namespace Testing
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! B3.");
+            Console.WriteLine("Hello World! B3");
         }
 
         void test()
         {
-            Console.WriteLine("Testing! B2.");
+            Console.WriteLine("Testing! B2");
         }
     }
 }
