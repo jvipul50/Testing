@@ -18,9 +18,10 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  printInputs:
-    runs-on: ubuntu-latest
+  build_and_release:
+    runs-on: windows-latest
     steps:
-    - run: |
+    - name: Print Inputs
+      run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
-        echo "branch name: ${{GITHUB_REF#refs/heads/}}"
+        echo "branch name: ${{ github.ref_name }}"
