@@ -16,7 +16,7 @@ namespace Testing
 
         void test2()
         {
-            Console.WriteLine("B5");
+            Console.WriteLine("B5 Testing");
         }
     }
 }
