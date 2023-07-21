@@ -1,0 +1,16 @@
+name: build
+
+on:
+  workflow_call:
+  push:
+  
+jobs:
+  build_run:
+  runs-on: windows-2019
+  
+  steps:
+  - name: Checkout code
+    uses: actions/checkout@v3
+    
+  - name: Build with script
+    run: .\Scripts\build.ps1
