@@ -13,5 +13,10 @@ namespace Testing
         {
             Console.WriteLine("Testing! B2");
         }
+
+        void test2()
+        {
+            Console.WriteLine("B5 Testing");
+        }
     }
 }
