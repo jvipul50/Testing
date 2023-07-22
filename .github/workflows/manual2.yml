@@ -20,7 +20,10 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  build_and_release:
+  build:
+    uses: ./.github/workflows/build.yml
+
+  release:
     runs-on: windows-latest
     steps:
     - name: Print Inputs
@@ -28,11 +31,5 @@ jobs:
         echo "Log level: ${{ github.event.inputs.logLevel }}"
         echo "branch name: ${{ github.ref_name }}"
     
-    - name: Checkout code
-      uses: actions/checkout@v3
-    
-    - name: Run Build action
-      uses: ./.github/workflows/build.yml
-
     - name: Checkoutput
       run: .\Scripts\release.ps1
