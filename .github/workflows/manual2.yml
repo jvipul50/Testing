@@ -10,11 +10,28 @@ on:
         description: 'Log level'     
         required: true
         default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
+
+runs-on: windows-latest
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  printInputs:
-    runs-on: ubuntu-latest
+  build_and_release:
     steps:
-    - run: |
+    - name: Print Inputs
+      run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
+        echo "branch name: ${{ github.ref_name }}"
+    
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Run Build action
+      uses: ./.github/workflows/build.yml
+
+    - name: Checkoutput
+      run: .\Scripts\release.ps1
