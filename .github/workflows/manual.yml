@@ -25,3 +25,12 @@ jobs:
       run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
         echo "branch name: ${{ github.ref_name }}"
+    
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Build with script
+      run: .\Scripts\build.ps1
+
+    - name: Checkoutput
+      run: .\Scripts\release.ps1
