@@ -16,11 +16,12 @@ on:
         - warning
         - debug
 
-runs-on: windows-latest
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build_and_release:
+    runs-on: windows-latest
     steps:
     - name: Print Inputs
       run: |
